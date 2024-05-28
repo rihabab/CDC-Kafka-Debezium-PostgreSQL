@@ -1,5 +1,5 @@
 {
-    "name": "kafka-to-postgres-connector",
+    "name": "kafka-to-postgres-connector-upsert",
     "config": {
         "connector.class": "io.confluent.connect.jdbc.JdbcSinkConnector",
         "tasks.max": "1",
